@@ -1,0 +1,30 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "This is a Namaste React live",
+
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ravishankar805/namasteReact.git"
+  },
+  "author": "Ravi Shankar Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "git@github.com:ravishankar805/namasteReact.git"
+  },
+  "homepage": "git@github.com:ravishankar805/namasteReact.git",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": [
+    "last 2  versions" 
+  ]
+}
