@@ -1,0 +1,91 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  /* border: 1px solid black; */
+  background-color: rgb(231, 160, 160);
+}
+.navlist {
+    position:relative;
+        width: 100%;
+    
+ 
+  width: 700px;
+
+}
+.nav-items > ul {
+  margin: auto;
+  list-style-type: none;
+  display: flex;
+}
+.nav-items > ul > li {
+  padding: 20px;
+}
+
+.logo {
+  width: 135px;
+}
+
+.card {
+ 
+  width: 200px;
+  /* border: 1px solid black; */
+  padding: 10px;
+  margin: 10px;
+}
+
+.card > img {
+  width: 100%;
+}
+.restaurant-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer {
+  padding: 30px;
+  text-align: center;
+  font-size: large;
+  background-color: rgb(231, 160, 160);
+  color: white;
+  height: 30px;
+  bottom: auto;
+}
+.text {
+  margin: 10px;
+  text-align: center;
+  font-size: large;
+}
+.navlist a {
+    
+    margin-top: 40px;
+    align-items: center;
+    float:left;
+    padding-right: 10px;;
+    display: block;
+    color: #0f0e0e;
+   
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navlist-right{
+    align-items: center;
+    float: right;
+}
+.navlist a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.login{
+    padding: 5px;
+    margin: 50px;
+}
+.search-box {
+  padding: 5px;
+    margin: 50px;
+}
+@media screen and (max-width: 720px) {
+  body {
+     background-color: lightblue;
+  }
+}
